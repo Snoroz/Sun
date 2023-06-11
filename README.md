@@ -1,2 +1,2 @@
 # Sun
-A simple lighting script.
+A simple dynamic lighting script.
