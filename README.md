@@ -2,6 +2,14 @@
 
 A simple dynamic lighting script.
 
+# Requirements
+
+This script requires the Ursina library.
+
+```
+pip install https://github.com/pokepetter/ursina/archive/master.zip --upgrade --force-reinstall
+```
+
 # How to use it
 
 In an example script like this, all you have to do is import the Sun class and call it in your script, passing it the target as an argument (which is usually the player).
