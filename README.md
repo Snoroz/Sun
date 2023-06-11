@@ -44,3 +44,5 @@ EditorCamera()
 
 app.run()
 ```
+
+![screenshot](https://github.com/Snoroz/Sun/assets/55320908/11eafa6c-7b52-4b0a-9daf-06d6f24e9e81)
