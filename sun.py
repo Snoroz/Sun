@@ -22,5 +22,5 @@ class Sun(Entity):
         self.target = target
 
     def update(self):
-        self.sun.setShadowCaster(True, 4000, 4000)
+        self.sun.setShadowCaster(True, 4096, 4096)
         self.pivot.setPos(self.target.world_position)
