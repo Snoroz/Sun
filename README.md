@@ -14,7 +14,7 @@ pip install https://github.com/pokepetter/ursina/archive/master.zip --upgrade --
 
 In an example script like this, all you have to do is import the Sun class and call it in your script, passing it the target as an argument (which is usually the player).
 
-```
+```python
 # Import libraries
 from ursina import *
 from ursina.shaders.lit_with_shadows_shader import lit_with_shadows_shader
