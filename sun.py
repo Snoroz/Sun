@@ -5,7 +5,7 @@ class Sun(Entity):
     def __init__(self, target):
         super().__init__()
 
-        self.sun = DirectionalLight("sun")
+        self.sun = DirectionalLight('sun')
 
         self.sun.getLens().setNearFar(-120, 300)
         self.sun.getLens().setFilmSize((150, 150))
