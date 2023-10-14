@@ -32,8 +32,8 @@ sphere = Entity(model = 'sphere', texture = 'brick', position = (1, 1, 0))
 
 # Use the arrow keys to move the cube.
 def update():
-    cube.x += held_keys['right arrow'] * 4 * time.dt
-    cube.x -= held_keys['left arrow'] * 4 * time.dt
+    cube.x += held_keys['right arrow'] * 5 * time.dt
+    cube.x -= held_keys['left arrow'] * 5 * time.dt
 
 # Light
 sun = Sun(target = cube)
