@@ -1,6 +1,6 @@
 # Sun
 
-A simple dynamic lighting script.
+A simple dynamic lighting script that only displays shadows within a certain radius of the target.
 
 # Requirements
 
