@@ -12,7 +12,7 @@ pip install https://github.com/pokepetter/ursina/archive/master.zip --upgrade --
 
 # How to use it
 
-In an example script like this, all you have to do is import the Sun class and call it in your script, passing it the target as an argument (which is usually the player).
+Import the Sun class and call it in your script, passing it the target as an argument (which is usually the player).
 
 ```python
 # Import libraries
