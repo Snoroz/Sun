@@ -1,7 +1,6 @@
-from ursina import Entity, Vec4
-from panda3d.core import DirectionalLight, AmbientLight
+from panda3d.core import Vec4, DirectionalLight, AmbientLight
 
-class Sun(Entity):
+class Sun:
     def __init__(self, target):
         super().__init__()
 
@@ -20,7 +19,11 @@ class Sun(Entity):
         render.setLight(self.parent)
 
         self.target = target
+        
+        taskMgr.add(self.update, 'update')
 
-    def update(self):
+    def update(self, task):
         self.sun.setShadowCaster(True, 4096, 4096)
         self.pivot.setPos(self.target.world_position)
+        
+        return task.cont
