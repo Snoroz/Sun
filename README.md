@@ -1,4 +1,4 @@
-# Sun
+# More information
 
 A simple dynamic lighting script that only displays shadows within a certain radius of the target.
 
