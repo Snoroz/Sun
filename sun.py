@@ -24,6 +24,6 @@ class Sun:
 
     def update(self, task):
         self.sun.setShadowCaster(True, 4096, 4096)
-        self.pivot.setPos(self.target.world_position)
+        self.pivot.setPos((self.target.world_x, 0, self.target.world_z))
         
         return task.cont
